@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/online-learning.css';
+import DeutscheKulturQuiz from './DeutscheKulturQuiz';
+import GrammatikTrainer from './GrammatikTrainer';
 
 const OnlineLearning = () => {
+  const [showDeutscheKulturQuiz, setShowDeutscheKulturQuiz] = useState(false);
+  const [showGrammatikTrainer, setShowGrammatikTrainer] = useState(false);
+
+  const handleGoBackToMain = () => {
+    setShowDeutscheKulturQuiz(false);
+    setShowGrammatikTrainer(false);
+  };
+
+  if (showDeutscheKulturQuiz) {
+    return <DeutscheKulturQuiz onGoBack={handleGoBackToMain} />;
+  }
+
+  if (showGrammatikTrainer) {
+    return <GrammatikTrainer onGoBack={handleGoBackToMain} />;
+  }
+
   return (
     <div className="online-learning-section">
       <h1 className="online-learning-title">Online Lernspiele</h1>
@@ -16,9 +34,7 @@ const OnlineLearning = () => {
           <div className="game-content">
             <p>Интерактивная игра для расширения словарного запаса. Изучайте новые слова в различных тематических категориях.</p>
             <ul className="game-features">
-              <li>3 уровня сложности</li>
               <li>10+ тематических категорий</li>
-              <li>Аудио произношение</li>
               <li>Режим тренировки и тестирования</li>
             </ul>
             <button className="play-button">ИГРАТЬ</button>
@@ -31,12 +47,11 @@ const OnlineLearning = () => {
           <div className="game-content">
             <p>Практикуйте грамматические правила немецкого языка в игровой форме. Идеально для начинающих и продолжающих.</p>
             <ul className="game-features">
-              <li>Артикли и падежи</li>
+              <li>Управление глаголов</li>
               <li>Времена глаголов</li>
-              <li>Порядок слов в предложении</li>
-              <li>Прогрессивное обучение</li>
+              <li>Предлоги</li>
             </ul>
-            <button className="play-button">ИГРАТЬ</button>
+            <button className="play-button" onClick={() => setShowGrammatikTrainer(true)}>ИГРАТЬ</button>
           </div>
         </div>
 
@@ -46,12 +61,10 @@ const OnlineLearning = () => {
           <div className="game-content">
             <p>Увлекательная викторина о немецкой культуре, традициях, истории и современной жизни в Германии.</p>
             <ul className="game-features">
-              <li>Более 500 вопросов</li>
+              <li>Более 60 вопросов</li>
               <li>Интересные факты и объяснения</li>
-              <li>Соревновательный режим</li>
-              <li>Регулярные обновления</li>
             </ul>
-            <button className="play-button">ИГРАТЬ</button>
+            <button className="play-button" onClick={() => setShowDeutscheKulturQuiz(true)}>ИГРАТЬ</button>
           </div>
         </div>
       </div>

@@ -1,0 +1,342 @@
+[
+  {
+    "instruction": "Дополните предложение, используя один из предлогов: mit, nach, zu.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich fahre"
+      },
+      {
+        "type": "blank",
+        "options": ["mit", "nach", "zu"],
+        "correct_answer": "mit"
+      },
+      {
+        "type": "text",
+        "content": "meinem Freund."
+      }
+    ],
+    "full_correct_sentence": "Ich fahre mit meinem Freund.",
+    "explanation": "Предлог 'mit' означает 'с' и всегда требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: nach, zu, von.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Wir fliegen"
+      },
+      {
+        "type": "blank",
+        "options": ["nach", "zu", "von"],
+        "correct_answer": "nach"
+      },
+      {
+        "type": "text",
+        "content": "Berlin."
+      }
+    ],
+    "full_correct_sentence": "Wir fliegen nach Berlin.",
+    "explanation": "Предлог 'nach' используется с географическими названиями и требует Dativ."
+  },
+  {
+    "instruction": "Дополните предложение, используя один из предлогов: aus, bei, von.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich komme"
+      },
+      {
+        "type": "blank",
+        "options": ["aus", "bei", "von"],
+        "correct_answer": "aus"
+      },
+      {
+        "type": "text",
+        "content": "dem Haus."
+      }
+    ],
+    "full_correct_sentence": "Ich komme aus dem Haus.",
+    "explanation": "Предлог 'aus' означает 'из' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: zu, nach, mit.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Wir gehen"
+      },
+      {
+        "type": "blank",
+        "options": ["zu", "nach", "mit"],
+        "correct_answer": "zu"
+      },
+      {
+        "type": "text",
+        "content": "der Schule."
+      }
+    ],
+    "full_correct_sentence": "Wir gehen zu der Schule.",
+    "explanation": "Предлог 'zu' означает 'к' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: von, aus, bei.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Das Geschenk ist"
+      },
+      {
+        "type": "blank",
+        "options": ["von", "aus", "bei"],
+        "correct_answer": "von"
+      },
+      {
+        "type": "text",
+        "content": "meinem Bruder."
+      }
+    ],
+    "full_correct_sentence": "Das Geschenk ist von meinem Bruder.",
+    "explanation": "Предлог 'von' означает 'от' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: bei, mit, außer.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich arbeite"
+      },
+      {
+        "type": "blank",
+        "options": ["bei", "mit", "außer"],
+        "correct_answer": "bei"
+      },
+      {
+        "type": "text",
+        "content": "der Firma Siemens."
+      }
+    ],
+    "full_correct_sentence": "Ich arbeite bei der Firma Siemens.",
+    "explanation": "Предлог 'bei' означает 'у/при' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: seit, für, nach.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich wohne hier"
+      },
+      {
+        "type": "blank",
+        "options": ["seit", "für", "nach"],
+        "correct_answer": "seit"
+      },
+      {
+        "type": "text",
+        "content": "einem Jahr."
+      }
+    ],
+    "full_correct_sentence": "Ich wohne hier seit einem Jahr.",
+    "explanation": "Предлог 'seit' используется для длительности и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: außer, mit, durch.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Alle kommen"
+      },
+      {
+        "type": "blank",
+        "options": ["außer", "mit", "durch"],
+        "correct_answer": "außer"
+      },
+      {
+        "type": "text",
+        "content": "dem Kind."
+      }
+    ],
+    "full_correct_sentence": "Alle kommen außer dem Kind.",
+    "explanation": "Предлог 'außer' означает 'кроме' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: entgegen, über, bis.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Entgegen"
+      },
+      {
+        "type": "blank",
+        "options": ["entgegen", "über", "bis"],
+        "correct_answer": "entgegen"
+      },
+      {
+        "type": "text",
+        "content": "meiner Meinung hat er recht."
+      }
+    ],
+    "full_correct_sentence": "Entgegen meiner Meinung hat er recht.",
+    "explanation": "‘entgegen’ используется как 'вопреки' и требует Dativ."
+  },
+  {
+    "instruction": "Дополните предложение, используя один из предлогов: gegenüber, an, in.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Das Café liegt"
+      },
+      {
+        "type": "blank",
+        "options": ["gegenüber", "an", "in"],
+        "correct_answer": "gegenüber"
+      },
+      {
+        "type": "text",
+        "content": "dem Museum."
+      }
+    ],
+    "full_correct_sentence": "Das Café liegt gegenüber dem Museum.",
+    "explanation": "‘gegenüber’ означает 'напротив' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: mit, bei, seit.",
+    "question_elements": [
+      { "type": "text", "content": "Ich spiele" },
+      {
+        "type": "blank",
+        "options": ["mit", "bei", "seit"],
+        "correct_answer": "mit"
+      },
+      { "type": "text", "content": "meinen Kindern." }
+    ],
+    "full_correct_sentence": "Ich spiele mit meinen Kindern.",
+    "explanation": "‘mit’ используется в значении 'с кем-то' и требует Dativ."
+  },
+  {
+    "instruction": "Дополните предложение: außer, gegenüber, nach.",
+    "question_elements": [
+      { "type": "text", "content": "Niemand war da," },
+      {
+        "type": "blank",
+        "options": ["außer", "gegenüber", "nach"],
+        "correct_answer": "außer"
+      },
+      { "type": "text", "content": "dem Lehrer." }
+    ],
+    "full_correct_sentence": "Niemand war da, außer dem Lehrer.",
+    "explanation": "‘außer’ означает 'кроме' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: zu, durch, an.",
+    "question_elements": [
+      { "type": "text", "content": "Ich gehe" },
+      {
+        "type": "blank",
+        "options": ["zu", "durch", "an"],
+        "correct_answer": "zu"
+      },
+      { "type": "text", "content": "meiner Tante." }
+    ],
+    "full_correct_sentence": "Ich gehe zu meiner Tante.",
+    "explanation": "‘zu’ означает 'к кому-то' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: bei, in, auf.",
+    "question_elements": [
+      { "type": "text", "content": "Sie wohnt" },
+      {
+        "type": "blank",
+        "options": ["bei", "in", "auf"],
+        "correct_answer": "bei"
+      },
+      { "type": "text", "content": "ihren Großeltern." }
+    ],
+    "full_correct_sentence": "Sie wohnt bei ihren Großeltern.",
+    "explanation": "‘bei’ в значении 'у кого-то' требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: von, mit, ohne.",
+    "question_elements": [
+      { "type": "text", "content": "Das ist ein Geschenk" },
+      {
+        "type": "blank",
+        "options": ["von", "mit", "ohne"],
+        "correct_answer": "von"
+      },
+      { "type": "text", "content": "meiner Schwester." }
+    ],
+    "full_correct_sentence": "Das ist ein Geschenk von meiner Schwester.",
+    "explanation": "‘von’ означает 'от кого-то' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: nach, für, um.",
+    "question_elements": [
+      { "type": "text", "content": "Nach" },
+      {
+        "type": "blank",
+        "options": ["nach", "für", "um"],
+        "correct_answer": "nach"
+      },
+      { "type": "text", "content": "dem Essen gehen wir spazieren." }
+    ],
+    "full_correct_sentence": "Nach dem Essen gehen wir spazieren.",
+    "explanation": "‘nach’ в значении 'после чего-то' требует Dativ."
+  },
+  {
+    "instruction": "Выберите предлог: gegenüber, an, auf.",
+    "question_elements": [
+      { "type": "text", "content": "Das Hotel liegt" },
+      {
+        "type": "blank",
+        "options": ["gegenüber", "an", "auf"],
+        "correct_answer": "gegenüber"
+      },
+      { "type": "text", "content": "dem Bahnhof." }
+    ],
+    "full_correct_sentence": "Das Hotel liegt gegenüber dem Bahnhof.",
+    "explanation": "‘gegenüber’ означает 'напротив' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: seit, ohne, über.",
+    "question_elements": [
+      { "type": "text", "content": "Ich arbeite" },
+      {
+        "type": "blank",
+        "options": ["seit", "ohne", "über"],
+        "correct_answer": "seit"
+      },
+      { "type": "text", "content": "zwei Jahren in dieser Firma." }
+    ],
+    "full_correct_sentence": "Ich arbeite seit zwei Jahren in dieser Firma.",
+    "explanation": "‘seit’ указывает на начало действия в прошлом и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: entgegen, für, gegen.",
+    "question_elements": [
+      { "type": "text", "content": "Entgegen" },
+      {
+        "type": "blank",
+        "options": ["entgegen", "für", "gegen"],
+        "correct_answer": "entgegen"
+      },
+      { "type": "text", "content": "allen Erwartungen war das Wetter gut." }
+    ],
+    "full_correct_sentence": "Entgegen allen Erwartungen war das Wetter gut.",
+    "explanation": "‘entgegen’ используется как 'вопреки' и требует Dativ."
+  },
+  {
+    "instruction": "Выберите правильный предлог: aus, mit, durch.",
+    "question_elements": [
+      { "type": "text", "content": "Sie kommt" },
+      {
+        "type": "blank",
+        "options": ["aus", "mit", "durch"],
+        "correct_answer": "aus"
+      },
+      { "type": "text", "content": "der Schweiz." }
+    ],
+    "full_correct_sentence": "Sie kommt aus der Schweiz.",
+    "explanation": "‘aus’ в значении 'из' требует Dativ."
+  }
+]
