@@ -2,6 +2,7 @@
   "name": "defuralle",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ale4kin.github.io/defuralle",
   "dependencies": {
     "@testing-library/dom": "^9.3.3",
     "@testing-library/jest-dom": "^6.1.4",
