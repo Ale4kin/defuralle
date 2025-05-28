@@ -4,7 +4,7 @@ import '../styles/contacts.css';
 
 const Contacts = () => {
   return (
-    <div className="contacts-section">
+    <main id="main-content" className="contacts-section">
       <h1 className="contacts-title">Контакты</h1>
       <p className="contacts-description">
         Давайте общаться. Свяжитесь с нами, используя контактные данные ниже.
@@ -33,7 +33,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

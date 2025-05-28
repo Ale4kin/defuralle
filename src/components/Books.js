@@ -8,7 +8,7 @@ import testImage from '../images/test.jpg';
 
 const Books = () => {
   return (
-    <div className="books-section">
+    <main id="main-content" className="books-section">
       <h1 className="books-title">Книги</h1>
       
       <div className="books-grid">
@@ -77,7 +77,7 @@ const Books = () => {
           <button className="download-button">СКАЧАТЬ</button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

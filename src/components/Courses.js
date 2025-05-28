@@ -8,7 +8,7 @@ import dervorleserImage from '../images/dervorleser1.jpg';
 
 const Courses = () => {
   return (
-    <div className="courses-section">
+    <main id="main-content" className="courses-section">
       <h1 className="courses-title">Курсы</h1>
       
       <div className="courses-grid">
@@ -103,7 +103,7 @@ const Courses = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

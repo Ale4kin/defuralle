@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import '../styles/grammatik-trainer.css';
 
 import verbPrepositionsQuizData from '../data/grammar/verb_prepositions_quiz_30.json';
@@ -105,6 +105,23 @@ const GrammatikTrainer = ({ onGoBack }) => {
     }
   ];
 
+  const resetExerciseState = useCallback((exercise, themeType) => {
+    setShowOverallFeedback(false);
+    setAreAllBlanksAnswered(false);
+    
+    let numBlanks = 0;
+    if (exercise) {
+        if (themeType === "multi-blank-multiple-choice") {
+            numBlanks = exercise.question_elements.filter(el => el.type === 'blank').length;
+        } else if (themeType === "single-blank-multiple-choice") {
+            numBlanks = exercise.question_elements ? exercise.question_elements.filter(el => el.type === 'blank').length : 0;
+            if (numBlanks === 0 && exercise.type === 'blank') numBlanks = 1; 
+        }
+    }
+    setSelectedOptions(new Array(numBlanks).fill(null));
+    setIndividualFeedback(new Array(numBlanks).fill(null));
+  }, []);
+
   useEffect(() => {
     setIsRuleNoteOpen(false);
     if (!selectedTheme) {
@@ -141,39 +158,22 @@ const GrammatikTrainer = ({ onGoBack }) => {
     setScore(0);
     setQuizCompleted(false);
 
-  }, [selectedTheme, selectedSubThemeName]);
+  }, [selectedTheme, selectedSubThemeName, resetExerciseState]);
 
-  const resetExerciseState = (exercise, themeType) => {
-    setShowOverallFeedback(false);
-    setAreAllBlanksAnswered(false);
-    
-    let numBlanks = 0;
-    if (exercise) {
-        if (themeType === "multi-blank-multiple-choice") {
-            numBlanks = exercise.question_elements.filter(el => el.type === 'blank').length;
-        } else if (themeType === "single-blank-multiple-choice") {
-            numBlanks = exercise.question_elements ? exercise.question_elements.filter(el => el.type === 'blank').length : 0;
-            if (numBlanks === 0 && exercise.type === 'blank') numBlanks = 1; 
-        }
-    }
-    setSelectedOptions(new Array(numBlanks).fill(null));
-    setIndividualFeedback(new Array(numBlanks).fill(null));
-  };
-  
   useEffect(() => {
     if (currentExercises.length > 0 && currentExercises[currentExerciseIndex]) {
-        const currentExercise = currentExercises[currentExerciseIndex];
-        let exerciseType = selectedTheme?.type;
+      const currentExercise = currentExercises[currentExerciseIndex];
+      let exerciseType = selectedTheme?.type;
 
-        if (selectedTheme?.type === "prepositions-main" && selectedSubThemeName) {
-            const subThemeConfig = selectedTheme.subThemes.find(st => st.name === selectedSubThemeName);
-            if (subThemeConfig) {
-                exerciseType = subThemeConfig.type;
-            }
-        } 
-        resetExerciseState(currentExercise, exerciseType);
+      if (selectedTheme?.type === "prepositions-main" && selectedSubThemeName) {
+        const subThemeConfig = selectedTheme.subThemes.find(st => st.name === selectedSubThemeName);
+        if (subThemeConfig) {
+          exerciseType = subThemeConfig.type;
+        }
+      } 
+      resetExerciseState(currentExercise, exerciseType);
     }
-  }, [currentExerciseIndex, currentExercises]);
+  }, [currentExerciseIndex, currentExercises, selectedTheme, selectedSubThemeName, resetExerciseState]);
 
   const toggleRuleNote = () => {
     setIsRuleNoteOpen(!isRuleNoteOpen);

@@ -4,7 +4,7 @@ import aboutImage from '../images/about.webp';
 
 const About = () => {
   return (
-    <div className="about-section">
+    <main id="main-content" className="about-section">
       <h1 className="about-title">О проекте</h1>
       <div className="about-content">
         <div className="profile-section">
@@ -30,7 +30,7 @@ const About = () => {
           <p>Если вы хотите учить немецкий язык или вас интересует отдельные грамматические и лексические темы, буду рада вам помочь!</p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

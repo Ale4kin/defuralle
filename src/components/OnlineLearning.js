@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import '../styles/online-learning.css';
 import DeutscheKulturQuiz from './DeutscheKulturQuiz';
 import GrammatikTrainer from './GrammatikTrainer';
+import WortschatzChallenge from './WortschatzChallenge';
 
 const OnlineLearning = () => {
   const [showDeutscheKulturQuiz, setShowDeutscheKulturQuiz] = useState(false);
   const [showGrammatikTrainer, setShowGrammatikTrainer] = useState(false);
+  const [showWortschatzChallenge, setShowWortschatzChallenge] = useState(false);
 
   const handleGoBackToMain = () => {
     setShowDeutscheKulturQuiz(false);
     setShowGrammatikTrainer(false);
+    setShowWortschatzChallenge(false);
   };
 
   if (showDeutscheKulturQuiz) {
@@ -20,8 +23,12 @@ const OnlineLearning = () => {
     return <GrammatikTrainer onGoBack={handleGoBackToMain} />;
   }
 
+  if (showWortschatzChallenge) {
+    return <WortschatzChallenge onGoBack={handleGoBackToMain} />;
+  }
+
   return (
-    <div className="online-learning-section">
+    <main id="main-content" className="online-learning-section">
       <h1 className="online-learning-title">Online Lernspiele</h1>
       <p className="online-learning-description">
         Интерактивные онлайн-игры для изучения немецкого языка. Используйте эти игры для практики и закрепления словарного запаса, грамматики и навыков разговорной речи.
@@ -37,7 +44,7 @@ const OnlineLearning = () => {
               <li>10+ тематических категорий</li>
               <li>Режим тренировки и тестирования</li>
             </ul>
-            <button className="play-button">ИГРАТЬ</button>
+            <button className="play-button" onClick={() => setShowWortschatzChallenge(true)}>ИГРАТЬ</button>
           </div>
         </div>
 
@@ -68,7 +75,7 @@ const OnlineLearning = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

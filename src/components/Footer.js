@@ -1,26 +1,21 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaVk, FaYoutube } from 'react-icons/fa';
 import '../styles/footer.css';
 
+// Adding a temporary comment to force a change
 function Footer() {
   return (
     <footer className="footer">
-      <div className="social-links">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
-          <FaFacebook />
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
-          <FaInstagram />
-        </a>
-        <a href="https://vk.com" target="_blank" rel="noopener noreferrer" className="social-link">
-          <FaVk />
-        </a>
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-link">
-          <FaYoutube />
-        </a>
+      <div className="footer-content">
+        <div className="footer-links">
+          <a href="/impressum" className="footer-link">Impressum</a>
+          <a href="/datenschutz" className="footer-link">Datenschutz</a>
+        </div>
+        <div className="copyright">
+          &copy; {new Date().getFullYear()} Defuralle. All rights reserved.
+        </div>
       </div>
     </footer>
   );
 }
 
-export default Footer; 
+export default Footer;
