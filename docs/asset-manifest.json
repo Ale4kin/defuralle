@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d12d3c5.css",
+    "main.js": "/static/js/main.76e69d2a.js",
+    "static/js/488.341cc3e0.chunk.js": "/static/js/488.341cc3e0.chunk.js",
+    "static/media/substantives.png": "/static/media/substantives.2c85d29e3e3723c18163.png",
+    "static/media/hero.webp": "/static/media/hero.c28d7e4d859faafcb9be.webp",
+    "static/media/about.webp": "/static/media/about.82a40058efd30921618f.webp",
+    "static/media/test.jpg": "/static/media/test.62627ccd58913d64a67e.jpg",
+    "static/media/learnGerman.png": "/static/media/learnGerman.93d9c1966f899e78e26e.png",
+    "static/media/dervorleser1.jpg": "/static/media/dervorleser1.c5e437cdc93ffea47107.jpg",
+    "static/media/easyGerman.jpg": "/static/media/easyGerman.740dcabc83ef9ac9d003.jpg",
+    "static/media/preposition.png": "/static/media/preposition.75eed7f7f554c993ed86.png",
+    "static/media/geschlecht.png": "/static/media/geschlecht.ee2deff786af9cbfdcee.png",
+    "static/media/success.png": "/static/media/success.f6396bc66d6438ef40f1.png",
+    "index.html": "/index.html",
+    "main.6d12d3c5.css.map": "/static/css/main.6d12d3c5.css.map",
+    "main.76e69d2a.js.map": "/static/js/main.76e69d2a.js.map",
+    "488.341cc3e0.chunk.js.map": "/static/js/488.341cc3e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d12d3c5.css",
+    "static/js/main.76e69d2a.js"
+  ]
+}
