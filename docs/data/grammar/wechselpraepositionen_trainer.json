@@ -1,0 +1,314 @@
+[
+  {
+    "instruction": "Выберите правильный предлог: in, auf, unter.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich stelle die Tasse"
+      },
+      {
+        "type": "blank",
+        "options": ["auf", "in", "unter"],
+        "correct_answer": "auf"
+      },
+      {
+        "type": "text",
+        "content": "den Tisch."
+      }
+    ],
+    "full_correct_sentence": "Ich stelle die Tasse auf den Tisch.",
+    "explanation": "Движение на горизонтальную поверхность → Akkusativ + auf."
+  },
+  {
+    "instruction": "Выберите правильный предлог: in, neben, zwischen.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Das Auto steht"
+      },
+      {
+        "type": "blank",
+        "options": ["zwischen", "in", "neben"],
+        "correct_answer": "zwischen"
+      },
+      {
+        "type": "text",
+        "content": "den Häusern."
+      }
+    ],
+    "full_correct_sentence": "Das Auto steht zwischen den Häusern.",
+    "explanation": "Нет движения, местоположение → Dativ + zwischen."
+  },
+  {
+    "instruction": "Выберите правильный предлог: an, auf, hinter.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Wir hängen das Bild"
+      },
+      {
+        "type": "blank",
+        "options": ["an", "auf", "hinter"],
+        "correct_answer": "an"
+      },
+      {
+        "type": "text",
+        "content": "die Wand."
+      }
+    ],
+    "full_correct_sentence": "Wir hängen das Bild an die Wand.",
+    "explanation": "Движение к вертикальной поверхности → Akkusativ + an."
+  },
+  {
+    "instruction": "Выберите правильный предлог: in, unter, über.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Die Lampe hängt"
+      },
+      {
+        "type": "blank",
+        "options": ["über", "unter", "in"],
+        "correct_answer": "über"
+      },
+      {
+        "type": "text",
+        "content": "dem Tisch."
+      }
+    ],
+    "full_correct_sentence": "Die Lampe hängt über dem Tisch.",
+    "explanation": "Нет движения, местоположение → Dativ + über."
+  },
+  {
+    "instruction": "Выберите правильный предлог: vor, hinter, auf.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Der Hund läuft"
+      },
+      {
+        "type": "blank",
+        "options": ["vor", "hinter", "auf"],
+        "correct_answer": "vor"
+      },
+      {
+        "type": "text",
+        "content": "das Haus."
+      }
+    ],
+    "full_correct_sentence": "Der Hund läuft vor das Haus.",
+    "explanation": "Движение вперёд → Akkusativ + vor."
+  },
+  {
+    "instruction": "Выберите правильный предлог: unter, neben, an.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Die Katze schläft"
+      },
+      {
+        "type": "blank",
+        "options": ["unter", "neben", "an"],
+        "correct_answer": "unter"
+      },
+      {
+        "type": "text",
+        "content": "dem Tisch."
+      }
+    ],
+    "full_correct_sentence": "Die Katze schläft unter dem Tisch.",
+    "explanation": "Нет движения, местоположение → Dativ + unter."
+  },
+  {
+    "instruction": "Выберите правильный предлог: auf, in, zwischen.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Ich lege das Buch"
+      },
+      {
+        "type": "blank",
+        "options": ["in", "auf", "zwischen"],
+        "correct_answer": "in"
+      },
+      {
+        "type": "text",
+        "content": "die Tasche."
+      }
+    ],
+    "full_correct_sentence": "Ich lege das Buch in die Tasche.",
+    "explanation": "Движение внутрь → Akkusativ + in."
+  },
+  {
+    "instruction": "Выберите правильный предлог: neben, vor, zwischen.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Er stellt sich"
+      },
+      {
+        "type": "blank",
+        "options": ["neben", "vor", "zwischen"],
+        "correct_answer": "neben"
+      },
+      {
+        "type": "text",
+        "content": "seinen Bruder."
+      }
+    ],
+    "full_correct_sentence": "Er stellt sich neben seinen Bruder.",
+    "explanation": "Движение к точке рядом → Akkusativ + neben."
+  },
+  {
+    "instruction": "Выберите правильный предлог: hinter, vor, auf.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Der Garten liegt"
+      },
+      {
+        "type": "blank",
+        "options": ["hinter", "vor", "auf"],
+        "correct_answer": "hinter"
+      },
+      {
+        "type": "text",
+        "content": "dem Haus."
+      }
+    ],
+    "full_correct_sentence": "Der Garten liegt hinter dem Haus.",
+    "explanation": "Нет движения, местоположение → Dativ + hinter."
+  },
+  {
+    "instruction": "Выберите правильный предлог: an, auf, in.",
+    "question_elements": [
+      {
+        "type": "text",
+        "content": "Sie sitzt"
+      },
+      {
+        "type": "blank",
+        "options": ["auf", "an", "in"],
+        "correct_answer": "auf"
+      },
+      {
+        "type": "text",
+        "content": "dem Sofa."
+      }
+    ],
+    "full_correct_sentence": "Sie sitzt auf dem Sofa.",
+    "explanation": "Нет движения, местоположение → Dativ + auf."
+  },
+  {
+    "instruction": "Выберите правильный предлог: in, an, unter.",
+    "question_elements": [
+      { "type": "text", "content": "Das Buch liegt" },
+      {
+        "type": "blank",
+        "options": ["in", "an", "unter"],
+        "correct_answer": "in"
+      },
+      { "type": "text", "content": "der Tasche." }
+    ],
+    "full_correct_sentence": "Das Buch liegt in der Tasche.",
+    "explanation": "Нет движения, местоположение → Dativ + in."
+  },
+  {
+    "instruction": "Выберите правильный предлог: hinter, vor, auf.",
+    "question_elements": [
+      { "type": "text", "content": "Ich stelle den Stuhl" },
+      {
+        "type": "blank",
+        "options": ["vor", "hinter", "auf"],
+        "correct_answer": "vor"
+      },
+      { "type": "text", "content": "die Tür." }
+    ],
+    "full_correct_sentence": "Ich stelle den Stuhl vor die Tür.",
+    "explanation": "Движение вперёд → Akkusativ + vor."
+  },
+  {
+    "instruction": "Выберите правильный предлог: auf, an, neben.",
+    "question_elements": [
+      { "type": "text", "content": "Die Lampe hängt" },
+      {
+        "type": "blank",
+        "options": ["an", "auf", "neben"],
+        "correct_answer": "an"
+      },
+      { "type": "text", "content": "der Decke." }
+    ],
+    "full_correct_sentence": "Die Lampe hängt an der Decke.",
+    "explanation": "Нет движения, местоположение на вертикальной поверхности → Dativ + an."
+  },
+  {
+    "instruction": "Выберите правильный предлог: zwischen, über, unter.",
+    "question_elements": [
+      { "type": "text", "content": "Ich lege das Handy" },
+      {
+        "type": "blank",
+        "options": ["unter", "zwischen", "über"],
+        "correct_answer": "unter"
+      },
+      { "type": "text", "content": "das Kissen." }
+    ],
+    "full_correct_sentence": "Ich lege das Handy unter das Kissen.",
+    "explanation": "Движение вниз, под что-то → Akkusativ + unter."
+  },
+  {
+    "instruction": "Выберите правильный предлог: über, neben, in.",
+    "question_elements": [
+      { "type": "text", "content": "Der Spiegel hängt" },
+      {
+        "type": "blank",
+        "options": ["über", "neben", "in"],
+        "correct_answer": "über"
+      },
+      { "type": "text", "content": "dem Waschbecken." }
+    ],
+    "full_correct_sentence": "Der Spiegel hängt über dem Waschbecken.",
+    "explanation": "Местоположение над чем-то → Dativ + über."
+  },
+  {
+    "instruction": "Выберите правильный предлог: hinter, auf, an.",
+    "question_elements": [
+      { "type": "text", "content": "Sie legt das Handy" },
+      {
+        "type": "blank",
+        "options": ["auf", "hinter", "an"],
+        "correct_answer": "auf"
+      },
+      { "type": "text", "content": "den Tisch." }
+    ],
+    "full_correct_sentence": "Sie legt das Handy auf den Tisch.",
+    "explanation": "Движение на горизонтальную поверхность → Akkusativ + auf."
+  },
+  {
+    "instruction": "Выберите правильный предлог: neben, zwischen, in.",
+    "question_elements": [
+      { "type": "text", "content": "Die Schule steht" },
+      {
+        "type": "blank",
+        "options": ["zwischen", "neben", "in"],
+        "correct_answer": "zwischen"
+      },
+      { "type": "text", "content": "dem Rathaus und der Kirche." }
+    ],
+    "full_correct_sentence": "Die Schule steht zwischen dem Rathaus und der Kirche.",
+    "explanation": "Местоположение между двумя объектами → Dativ + zwischen."
+  },
+  {
+    "instruction": "Выберите правильный предлог: an, unter, vor.",
+    "question_elements": [
+      { "type": "text", "content": "Ich setze mich" },
+      {
+        "type": "blank",
+        "options": ["an", "vor", "unter"],
+        "correct_answer": "an"
+      },
+      { "type": "text", "content": "den Tisch." }
+    ],
+    "full_correct_sentence": "Ich setze mich an den Tisch.",
+    "explanation": "Движение к вертикальной поверхности (например, сесть к столу) → Akkusativ + an."
+  }
+]

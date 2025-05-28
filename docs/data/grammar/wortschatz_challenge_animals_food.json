@@ -1,0 +1,294 @@
+{
+  "categories": [
+    {
+      "id": "animals",
+      "name": "Tiere",
+      "description": "Учим животных",
+      "icon": "animals",
+      "words": [
+        {
+          "id": "w1",
+          "german": "die Katze",
+          "russian": "кошка",
+          "example": "Die Katze schläft auf dem Sofa.",
+          "image": "cat.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w2",
+          "german": "der Hund",
+          "russian": "собака",
+          "example": "Der Hund bellt laut.",
+          "image": "dog.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w3",
+          "german": "der Vogel",
+          "russian": "птица",
+          "example": "Der Vogel fliegt hoch.",
+          "image": "bird.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w4",
+          "german": "der Fisch",
+          "russian": "рыба",
+          "example": "Der Fisch schwimmt im Wasser.",
+          "image": "fish.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w5",
+          "german": "das Pferd",
+          "russian": "лошадь",
+          "example": "Das Pferd galoppiert.",
+          "image": "horse.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w6",
+          "german": "die Kuh",
+          "russian": "корова",
+          "example": "Die Kuh gibt Milch.",
+          "image": "cow.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w7",
+          "german": "das Schwein",
+          "russian": "свинья",
+          "example": "Das Schwein ist rosa.",
+          "image": "pig.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w8",
+          "german": "das Schaf",
+          "russian": "овца",
+          "example": "Das Schaf hat Wolle.",
+          "image": "sheep.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w9",
+          "german": "die Maus",
+          "russian": "мышь",
+          "example": "Die Maus ist klein.",
+          "image": "mouse.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w10",
+          "german": "die Ente",
+          "russian": "утка",
+          "example": "Die Ente schwimmt.",
+          "image": "duck.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w11",
+          "german": "der Hase",
+          "russian": "заяц",
+          "example": "Der Hase springt schnell.",
+          "image": "rabbit.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w12",
+          "german": "der Löwe",
+          "russian": "лев",
+          "example": "Der Löwe ist stark.",
+          "image": "lion.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w13",
+          "german": "der Tiger",
+          "russian": "тигр",
+          "example": "Der Tiger lebt im Dschungel.",
+          "image": "tiger.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w14",
+          "german": "der Bär",
+          "russian": "медведь",
+          "example": "Der Bär schläft im Winter.",
+          "image": "bear.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w15",
+          "german": "der Affe",
+          "russian": "обезьяна",
+          "example": "Der Affe klettert auf Bäume.",
+          "image": "monkey.jpg",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Essen und Trinken",
+      "description": "Учим продукты и напитки",
+      "icon": "restaurant",
+      "words": [
+        {
+          "id": "w16",
+          "german": "der Apfel",
+          "russian": "яблоко",
+          "example": "Ich esse jeden Tag einen Apfel.",
+          "image": "apple.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w17",
+          "german": "das Brot",
+          "russian": "хлеб",
+          "example": "Das Brot ist frisch.",
+          "image": "bread.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w18",
+          "german": "der Käse",
+          "russian": "сыр",
+          "example": "Ich mag Schweizer Käse.",
+          "image": "cheese.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w19",
+          "german": "die Milch",
+          "russian": "молоко",
+          "example": "Kinder trinken viel Milch.",
+          "image": "milk.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w20",
+          "german": "das Wasser",
+          "russian": "вода",
+          "example": "Ich trinke gerne kaltes Wasser.",
+          "image": "water.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w21",
+          "german": "der Tee",
+          "russian": "чай",
+          "example": "Grüner Tee ist gesund.",
+          "image": "tea.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w22",
+          "german": "der Kaffee",
+          "russian": "кофе",
+          "example": "Ich brauche morgens meinen Kaffee.",
+          "image": "coffee.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w23",
+          "german": "der Saft",
+          "russian": "сок",
+          "example": "Orangensaft ist mein Lieblingsgetränk.",
+          "image": "juice.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w24",
+          "german": "die Banane",
+          "russian": "банан",
+          "example": "Die Banane ist gelb.",
+          "image": "banana.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w25",
+          "german": "das Ei",
+          "russian": "яйцо",
+          "example": "Zum Frühstück esse ich ein Ei.",
+          "image": "egg.jpg",
+          "difficulty": 1
+        },
+        {
+          "id": "w26",
+          "german": "das Fleisch",
+          "russian": "мясо",
+          "example": "Ich esse selten Fleisch.",
+          "image": "meat.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w27",
+          "german": "der Fisch",
+          "russian": "рыба",
+          "example": "Lachs ist ein Fisch.",
+          "image": "fish.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w28",
+          "german": "das Salz",
+          "russian": "соль",
+          "example": "Gib bitte etwas Salz.",
+          "image": "salt.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w29",
+          "german": "der Zucker",
+          "russian": "сахар",
+          "example": "Der Kaffee ist ohne Zucker.",
+          "image": "sugar.jpg",
+          "difficulty": 2
+        },
+        {
+          "id": "w30",
+          "german": "die Suppe",
+          "russian": "суп",
+          "example": "Die Suppe ist heiß.",
+          "image": "soup.jpg",
+          "difficulty": 2
+        }
+      ]
+    }
+  ],
+  "exerciseTypes": [
+    {
+      "id": "flashcard",
+      "name": "Flashcards",
+      "description": "Simple flashcards to learn words"
+    },
+    {
+      "id": "multiplechoice",
+      "name": "Multiple Choice",
+      "description": "Choose the correct translation"
+    },
+    {
+      "id": "fillblank",
+      "name": "Fill in the Blank",
+      "description": "Complete sentences with the correct word"
+    },
+    {
+      "id": "matching",
+      "name": "Word Matching",
+      "description": "Match German words with their Russian translations"
+    }
+  ],
+  "modes": [
+    {
+      "id": "training",
+      "name": "Training Mode",
+      "description": "Learn at your own pace without scoring"
+    },
+    {
+      "id": "testing",
+      "name": "Testing Mode",
+      "description": "Test your knowledge with timed exercises and scoring"
+    }
+  ]
+}
