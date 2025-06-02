@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/defuralle/static/css/main.6d12d3c5.css",
-    "main.js": "/defuralle/static/js/main.6fc2b537.js",
+    "main.js": "/defuralle/static/js/main.21e18c91.js",
     "static/js/488.341cc3e0.chunk.js": "/defuralle/static/js/488.341cc3e0.chunk.js",
     "static/media/substantives.png": "/defuralle/static/media/substantives.2c85d29e3e3723c18163.png",
     "static/media/hero.webp": "/defuralle/static/media/hero.c28d7e4d859faafcb9be.webp",
@@ -15,11 +15,11 @@
     "static/media/success.png": "/defuralle/static/media/success.f6396bc66d6438ef40f1.png",
     "index.html": "/defuralle/index.html",
     "main.6d12d3c5.css.map": "/defuralle/static/css/main.6d12d3c5.css.map",
-    "main.6fc2b537.js.map": "/defuralle/static/js/main.6fc2b537.js.map",
+    "main.21e18c91.js.map": "/defuralle/static/js/main.21e18c91.js.map",
     "488.341cc3e0.chunk.js.map": "/defuralle/static/js/488.341cc3e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d12d3c5.css",
-    "static/js/main.6fc2b537.js"
+    "static/js/main.21e18c91.js"
   ]
 }
