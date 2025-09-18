@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/defuralle/static/css/main.6d12d3c5.css",
-    "main.js": "/defuralle/static/js/main.21e18c91.js",
+    "main.css": "/defuralle/static/css/main.9c9b40b5.css",
+    "main.js": "/defuralle/static/js/main.13bbb8c2.js",
     "static/js/488.341cc3e0.chunk.js": "/defuralle/static/js/488.341cc3e0.chunk.js",
+    "static/media/prepositions.png": "/defuralle/static/media/prepositions.ae951d653ad13ce5fa07.png",
+    "static/media/background_about.png": "/defuralle/static/media/background_about.4a133896894e42f0edc2.png",
     "static/media/substantives.png": "/defuralle/static/media/substantives.2c85d29e3e3723c18163.png",
-    "static/media/hero.webp": "/defuralle/static/media/hero.c28d7e4d859faafcb9be.webp",
-    "static/media/about.webp": "/defuralle/static/media/about.82a40058efd30921618f.webp",
+    "static/media/der-die-das-orig.webp": "/defuralle/static/media/der-die-das-orig.b6c9cd3f9a61f11c1ea3.webp",
     "static/media/test.jpg": "/defuralle/static/media/test.62627ccd58913d64a67e.jpg",
+    "static/media/quizlet-cards-orig.webp": "/defuralle/static/media/quizlet-cards-orig.3f0aee53ed9bc7cf181f.webp",
     "static/media/learnGerman.png": "/defuralle/static/media/learnGerman.93d9c1966f899e78e26e.png",
-    "static/media/dervorleser1.jpg": "/defuralle/static/media/dervorleser1.c5e437cdc93ffea47107.jpg",
+    "static/media/defuralle-study-orig.webp": "/defuralle/static/media/defuralle-study-orig.52c57bdd13fb36158be5.webp",
     "static/media/easyGerman.jpg": "/defuralle/static/media/easyGerman.740dcabc83ef9ac9d003.jpg",
-    "static/media/preposition.png": "/defuralle/static/media/preposition.75eed7f7f554c993ed86.png",
-    "static/media/geschlecht.png": "/defuralle/static/media/geschlecht.ee2deff786af9cbfdcee.png",
     "static/media/success.png": "/defuralle/static/media/success.f6396bc66d6438ef40f1.png",
     "index.html": "/defuralle/index.html",
-    "main.6d12d3c5.css.map": "/defuralle/static/css/main.6d12d3c5.css.map",
-    "main.21e18c91.js.map": "/defuralle/static/js/main.21e18c91.js.map",
+    "main.9c9b40b5.css.map": "/defuralle/static/css/main.9c9b40b5.css.map",
+    "main.13bbb8c2.js.map": "/defuralle/static/js/main.13bbb8c2.js.map",
     "488.341cc3e0.chunk.js.map": "/defuralle/static/js/488.341cc3e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d12d3c5.css",
-    "static/js/main.21e18c91.js"
+    "static/css/main.9c9b40b5.css",
+    "static/js/main.13bbb8c2.js"
   ]
 }
