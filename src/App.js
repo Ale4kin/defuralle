@@ -12,7 +12,7 @@ import Books from './components/Books';
 import OnlineLearning from './components/OnlineLearning';
 import SEO from './components/SEO';
 import './styles/main.css';
-import heroImage from './images/hero.webp';
+import heroImage from './images/defuralle-study-orig.webp';
 
 // Import new components
 import Impressum from './components/Impressum';
@@ -25,7 +25,6 @@ function HomePage() {
         title="Главная"
         description="Начните изучение немецкого языка с Deutsch für alle. Интерактивные курсы, упражнения и игры для эффективного обучения."
       />
-      <h1 className="main-title">Главная страница</h1>
       <div className="hero-section">
         <img 
           src={heroImage} 

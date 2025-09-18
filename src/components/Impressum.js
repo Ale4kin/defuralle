@@ -16,7 +16,7 @@ function Impressum() {
     
       <br />
       <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
-      <p>Max Mustermann</p>
+      <p>Alevtina Lebedeva</p>
       <p>Anschrift wie oben</p>
     </main>
   );

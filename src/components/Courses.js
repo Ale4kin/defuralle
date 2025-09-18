@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/courses.css';
-import prepositionImage from '../images/preposition.png';
-import geschlechtImage from '../images/geschlecht.png';
-import quizletImage from '../images/quizlet.png';
-import dervorleserImage from '../images/dervorleser1.jpg';
+import prepositionImage from '../images/prepositions.png';
+import geschlechtImage from '../images/der-die-das-orig.webp';
+import quizletImage from '../images/quizlet-cards-orig.webp';
 
 const Courses = () => {
   return (
@@ -20,7 +19,6 @@ const Courses = () => {
             className="course-image"
           />
           <h3 className="course-title">Предлоги в немецком языке</h3>
-          <div className="author">Alevtina Lebedeva</div>
           <p className="course-description">
             Предлоги — одна из самых сложных тем в немецком языке. Почему в одном случае мы используем an, а в другом — auf? Когда использовать in, nach и zu? Как правильно сказать in Urlaub fahren или auf Urlaub fahren?
           </p>
@@ -45,7 +43,6 @@ const Courses = () => {
             className="course-image"
           />
           <h3 className="course-title">Род существительных в немецком языке</h3>
-          <div className="author">Alevtina Lebedeva</div>
           <p className="course-description">
             Как запомнить род существительных в немецком языке? Почему der Fisch, хотя в русском языке «рыба» женского рода? почему das Kind, хотя это ребенок и он существенный?
           </p>
@@ -83,25 +80,7 @@ const Courses = () => {
           </a>
         </div>
 
-        {/* Der Vorleser von Bernhard Schlink */}
-        <div className="course-card">
-          <img 
-            src={dervorleserImage} 
-            alt="Der Vorleser von Bernhard Schlink" 
-            className="course-image"
-          />
-          <h3 className="course-title">«Der Vorleser» von Bernhard Schlink</h3>
-          <p className="course-description">
-            Дистанционный курс немецкого языка вместе с Вашими любимыми книгами! Теперь Вы читаете не только для удовольствия, но и учите немецкий язык! Вас ждет много интересных заданий!
-          </p>
-          <p className="price">Стоимость — 3500 руб. / 60 евро</p>
-          <Link 
-            to="/contacts"
-            className="register-button"
-          >
-            ЗАРЕГИСТРИРОВАТЬСЯ
-          </Link>
-        </div>
+        
       </div>
     </main>
   );

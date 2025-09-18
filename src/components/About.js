@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/about.css';
-import aboutImage from '../images/about.webp';
+import aboutImage from '../images/background_about.png';
 
 const About = () => {
   return (

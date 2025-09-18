@@ -24,7 +24,7 @@ function Stats() {
           <p className="stat-description">успешно сданных учениками экзаменов Гете-Института</p>
         </div>
         <div className="stat-item">
-          <h3 className="stat-number">5+ лет</h3>
+          <h3 className="stat-number">15+ лет</h3>
           <p className="stat-description">жизни в Германии</p>
         </div>
         <div className="stat-item">
