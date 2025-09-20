@@ -16,20 +16,10 @@ const Contacts = () => {
           <a href="mailto:defuralle@gmail.com" className="contact-email">
             defuralle@gmail.com
           </a>
-          <p className="contact-skype">Skype: De_für_alle</p>
           <div className="social-links">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FaFacebook />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FaInstagram />
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FaYoutube />
-            </a>
-            <a href="https://vk.com" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FaVk />
-            </a>
+            <a href="https://www.facebook.com/Defuralle" target="_blank" rel="noopener noreferrer" className="social-link"><FaFacebook /></a>
+            <a href="https://www.instagram.com/deutsch_furalle/" target="_blank" rel="noopener noreferrer" className="social-link"><FaInstagram /></a>
+            <a href="https://www.youtube.com/@deutschfuralle5626" target="_blank" rel="noopener noreferrer" className="social-link"><FaYoutube /></a>
           </div>
         </div>
       </div>
