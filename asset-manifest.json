@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/defuralle/static/css/main.9c9b40b5.css",
+    "main.css": "/defuralle/static/css/main.72f99298.css",
     "main.js": "/defuralle/static/js/main.320dadc1.js",
     "static/js/488.341cc3e0.chunk.js": "/defuralle/static/js/488.341cc3e0.chunk.js",
     "static/media/prepositions.png": "/defuralle/static/media/prepositions.ae951d653ad13ce5fa07.png",
@@ -14,12 +14,12 @@
     "static/media/easyGerman.jpg": "/defuralle/static/media/easyGerman.740dcabc83ef9ac9d003.jpg",
     "static/media/success.png": "/defuralle/static/media/success.f6396bc66d6438ef40f1.png",
     "index.html": "/defuralle/index.html",
-    "main.9c9b40b5.css.map": "/defuralle/static/css/main.9c9b40b5.css.map",
+    "main.72f99298.css.map": "/defuralle/static/css/main.72f99298.css.map",
     "main.320dadc1.js.map": "/defuralle/static/js/main.320dadc1.js.map",
     "488.341cc3e0.chunk.js.map": "/defuralle/static/js/488.341cc3e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c9b40b5.css",
+    "static/css/main.72f99298.css",
     "static/js/main.320dadc1.js"
   ]
 }
